@@ -5,6 +5,6 @@ function updateObjectWithKeyAndValue(object, key, value){
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-  recipes.butter('1 cup');
-  return recipes
+  recipes.butter = '1 cup';
+  return recipes;
 }
